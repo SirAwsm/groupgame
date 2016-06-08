@@ -42,5 +42,45 @@ body {
 #exploreBody {
 	background-image: url("img/exploreHome1.jpg");
 	background-position: bottom center;
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  background: #000fff;
+}
+
+canvas {
+  display:block;
+  margin: 40px auto 20px;
+  border: 1px solid #333;
+  box-shadow: 0 0 16px 2px rgba(0,0,0,0.8);
+}
+
+p, a {
+  font-family: Impact;
+  font-size: 30px;
+  color: #777;
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration:none;
+}
+
+.info {
+  margin:14px auto;
+  text-align: justify;
+  font-size: 18px;
+  color: #999;
+}
+
+a {
+  color:#3377ee;
+}
+button{
+width:100px;
+  height:50px;
+}
 }
